@@ -14,7 +14,7 @@
 </style>
 <div class="card-body">
 <div class="container">
-<form action="/ubah-mhs" method="POST">
+<form action="/ubah-kendaraan" method="POST">
     <div class="form-group">
         <label for="nim">NO PLAT : </label>
         <input class="form-control" type="text" name="plat" id="plat" value="{{$data->plat}}">
