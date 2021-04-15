@@ -30,7 +30,7 @@
   <table class="table">
     <thead class="thead-dark">
       <tr>
-      <th>PLAT</th>
+      <th>NO. PLAT</th>
       <th>MERK</th>
       <th>TIPE</th>
       <th>ACTION</th>
