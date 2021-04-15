@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', [KendaraanController::class, 'home']);
+Route::get('/list-kendaraan', [KendaraanController::class, 'home']);
 Route::get('/form-tambah', function () {
     return view('form-tambah');
 });
