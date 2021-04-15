@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -65,12 +65,12 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'url' => env('postgres://xixktqmiwffxtg:b0a5ac2d199ef5cb25f4c8891800ca22d67efa2a3ce0d077f74777a2c44a2377@ec2-54-90-211-192.compute-1.amazonaws.com:5432/d3v8qumbut1dmv'),
+            'host' => env('DB_HOST', 'ec2-54-90-211-192.compute-1.amazonaws.com'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'd3v8qumbut1dmv'),
+            'username' => env('DB_USERNAME', 'xixktqmiwffxtg'),
+            'password' => env('DB_PASSWORD', 'b0a5ac2d199ef5cb25f4c8891800ca22d67efa2a3ce0d077f74777a2c44a2377'),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
@@ -123,7 +123,7 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'redis'),
-            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
+            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_'),
         ],
 
         'default' => [
