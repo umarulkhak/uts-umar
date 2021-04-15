@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('list-kendaraan');
 });
-Route::get('/list-kendaraan', [KendaraanController::class, 'home']);
+// Route::get('/list-kendaraan', [KendaraanController::class, 'home']);
 Route::get('/form-tambah', function () {
     return view('form-tambah');
 });
