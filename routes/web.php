@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\KendaraanController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/list-kendaraan', [KendaraanController::class, 'home']);
+Route::get('/form-tambah', function () {
+    return view('form-tambah');
+});
+Route::post('/tambah', [KendaraanController::class, 'tambah']);
+Route::get('/hapus-kendaraan/{id}', [KendaraanController::class, 'hapus']);
+Route::get('/ubah-kendaraan/{id}', [KendaraanController::class, 'formUbah']);
+Route::post('/ubah-kendaraan', [KendaraanController::class, 'ubah']);
