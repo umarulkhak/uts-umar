@@ -4,7 +4,7 @@
     Nama  : Umar Ulkhak
     Kelas : 6B
     
-    URL Heroku  : https://uts-umar.herokuapp.com/
+    URL Heroku  : [https://uts-umar.herokuapp.com/](https://uts-umar.herokuapp.com/)
 
 ## Preview Fitur
 
