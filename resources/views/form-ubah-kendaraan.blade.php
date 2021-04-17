@@ -28,7 +28,7 @@
         <input class="form-control" type="text" name="tipe" id="tipe" value="{{$data->tipe}}">
     </div>
     <input type="hidden" value="{{$data->id}}" id="id" name="id">
-    <input class="btn btn-outline-success" type="submit" value="Updated"><br>
+    <input class="btn btn-outline-success" type="submit" value="Save"><br>
 </form>
 </div>
 </div>

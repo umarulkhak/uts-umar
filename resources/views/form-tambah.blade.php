@@ -27,7 +27,7 @@
         <label for="harga">TIPE : </label>
         <input class="form-control" type="text" name="tipe" id="tipe">
     </div>
-    <input class="btn btn-outline-success" type="submit" value="Simpan"><br>
+    <input class="btn btn-outline-success" type="submit" value="Save"><br>
 </form>
 </div>
 </div>
