@@ -1,4 +1,4 @@
-<span class="p-3 mb-2 bg-info text-white">
+<span class="d-block p-3 mb-2 bg-info text-white">
     <h3 style="text-align: center">Daftar Kendaraan</h3>
   </span><br>
   <div class="container">
