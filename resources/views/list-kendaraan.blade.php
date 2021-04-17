@@ -48,8 +48,8 @@
               <td>{{ $i->merk }}</td> 
               <td>{{ $i->tipe }}</td>
               <td>
-                  <a class="btn btn-warning" href="/ubah-kendaraan/{{$i->id}}">Edit</a>
-                  <a class="btn btn-danger" href="/hapus-kendaraan/{{$i->id}}"> Hapus</a>
+                  <a class="btn-outline-warning" href="/ubah-kendaraan/{{$i->id}}">Edit</a>
+                  <a class="btn-outline-danger" href="/hapus-kendaraan/{{$i->id}}"> Hapus</a>
               </td>
           </tr>
           </tbody>
