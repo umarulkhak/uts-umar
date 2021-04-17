@@ -1,8 +1,8 @@
 ## UTS Framework Programming aplikasi perekaman data kendaraan
 
-) NIM   : 17090008
-) Nama  : Umar Ulkhak
-) Kelas : 6B
+    NIM   : 17090008
+    Nama  : Umar Ulkhak
+    Kelas : 6B
 
 ## Preview Fitur
 
