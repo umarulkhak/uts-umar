@@ -26,9 +26,9 @@
       } */
       </style>
   <div class="container">
-    <div class="card border-dark mb-3">
+    <div class="card border-info mb-3">
   <table class="table">
-    <thead class="thead-dark">
+    <thead class="thead-info">
       <tr>
       <th>NO. PLAT</th>
       <th>MERK</th>
