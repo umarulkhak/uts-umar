@@ -1,4 +1,4 @@
-<span class="d-block p-2 bg-dark text-white">
+<span class="p-3 mb-2 bg-info text-white">
     <h3 style="text-align: center">Daftar Kendaraan</h3>
   </span><br>
   <div class="container">
@@ -48,8 +48,8 @@
               <td>{{ $i->merk }}</td> 
               <td>{{ $i->tipe }}</td>
               <td>
-                  <a class="btn-outline-warning" href="/ubah-kendaraan/{{$i->id}}">Edit</a>
-                  <a class="btn-outline-danger" href="/hapus-kendaraan/{{$i->id}}"> Hapus</a>
+                  <a class="btn btn-outline-warning" href="/ubah-kendaraan/{{$i->id}}">Edit</a>
+                  <a class="btn btn-outline-danger" href="/hapus-kendaraan/{{$i->id}}"> Hapus</a>
               </td>
           </tr>
           </tbody>
