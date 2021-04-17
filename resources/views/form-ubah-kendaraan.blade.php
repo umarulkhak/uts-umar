@@ -1,4 +1,4 @@
-<span class="d-block p-2 bg-dark text-white">
+<span class="d-block p-3 mb-2 bg-info text-white">
     <h3>Ubah Data Kendaraan</h3>
 </span>
 <div class="card border-light">
@@ -28,7 +28,7 @@
         <input class="form-control" type="text" name="tipe" id="tipe" value="{{$data->tipe}}">
     </div>
     <input type="hidden" value="{{$data->id}}" id="id" name="id">
-    <input class="btn btn-success" type="submit" value="Simpan"><br>
+    <input class="btn btn-outline-success" type="submit" value="Updated"><br>
 </form>
 </div>
 </div>

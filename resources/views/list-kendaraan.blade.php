@@ -2,7 +2,7 @@
     <h3 style="text-align: center">Daftar Kendaraan</h3>
   </span><br>
   <div class="container">
-    <a class="btn btn-primary" href="/form-tambah"> Tambah</a>
+    <a class="btn btn-outline-primary" href="/form-tambah"> Tambah</a>
   </div><br>
   <style>
       table {

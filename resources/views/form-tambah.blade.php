@@ -1,4 +1,4 @@
-<span class="d-block p-2 bg-dark text-white">
+<span class="d-block p-3 mb-2 bg-info text-white">
     <h3>Tambah Data Kendaraan</h3>
 </span>
 <div class="card border-light">
@@ -27,7 +27,7 @@
         <label for="harga">TIPE : </label>
         <input class="form-control" type="text" name="tipe" id="tipe">
     </div>
-    <input class="btn btn-success" type="submit" value="Simpan"><br>
+    <input class="btn btn-outline-success" type="submit" value="Simpan"><br>
 </form>
 </div>
 </div>
