@@ -7,6 +7,9 @@
 ## URL Heroku
 [https://uts-umar.herokuapp.com/](https://uts-umar.herokuapp.com/)
 
+## Penjelasan Use Case, Activity, Sequence, dan Class Diagram
+[https://github.com/umarulkhak/uts-penjelasan-diagram.git](https://github.com/umarulkhak/uts-penjelasan-diagram.git)
+
 ## Preview Fitur
 
 1) List Data Kendaraan
