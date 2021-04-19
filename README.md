@@ -15,17 +15,17 @@
 1) List Data Kendaraan
 
 <p>
-  <img src="https://github.com/umarulkhak/uts-umar/blob/master/img/list.png" width=50% />
+  <img src="https://github.com/umarulkhak/uts-umar/blob/master/img/list.png" width=80% />
 </p>
 
 3) Form Tambah Data Kendaraan
 
 <p>
-  <img src="https://github.com/umarulkhak/uts-umar/blob/master/img/add.png" width=50% />
+  <img src="https://github.com/umarulkhak/uts-umar/blob/master/img/add.png" width=80% />
 </p>
 
 5) Form Ubah Data Kendaraan
 
 <p>
-  <img src="https://github.com/umarulkhak/uts-umar/blob/master/img/Edit.png" width=50% />
+  <img src="https://github.com/umarulkhak/uts-umar/blob/master/img/Edit.png" width=80% />
 </p>
